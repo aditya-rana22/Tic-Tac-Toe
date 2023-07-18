@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>Tic-Tac-Toe</title>
+  </head>
+
+  <body>
+    <div id="head">
+      <h1 id="title" class="is-size-1">Welcome to Tic-Tac-Toe</h1>
+    </div>
+    <br />
+    <button class="button is-danger" id="start">Start Game</button>
+    <br />
+    <div class="containerr">
+      <div class="row">
+        <div class="square row-1 col-1 diag-1"></div>
+        <div class="square row-1 col-2"></div>
+        <div class="square row-1 col-3 diag-2"></div>
+      </div>
+      <div class="row">
+        <div class="square row-2 col-1"></div>
+        <div class="square row-2 col-2 diag-1 diag-2"></div>
+        <div class="square row-2 col-3"></div>
+      </div>
+      <div class="row">
+        <div class="square row-3 col-1 diag-2"></div>
+        <div class="square row-3 col-2"></div>
+        <div class="square row-3 col-3 diag-1"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
